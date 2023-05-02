@@ -45,7 +45,7 @@ for hour in data['hours']:
     print(f"Wind Direction: {wind_direction}")
     print("--------")
     if c == hour_range:
-        break
+        break 
 
 
 

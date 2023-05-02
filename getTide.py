@@ -37,7 +37,7 @@ data = response.json()
 with open('forecast.json', 'w') as f:
     json.dump(data, f)
 
-input_file = 'forecast.json'
+input_file = 'forecast.json' 
 output_file = 'refined.json'
 
 max_items = scraping.hour_range

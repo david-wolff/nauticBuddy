@@ -1,17 +1,25 @@
 import requests
 import json
+import geocoder
+import os 
+import datetime
+import scraping
+from flask import Flask, request
+#from wilio.twiml.messaging_response import MessagingResponse
 
-# Replace YOUR_API_KEY with your actual API key
-api_key = "01ba7f2a-dfad-11ed-a138-0242ac130002-01ba7fa2-dfad-11ed-a138-0242ac130002"
 
-# Specify the coordinates for the surf forecast
-lat = "-23.0107"  # San Francisco, CA
-lng = "-43.4222"
 
-# Specify the parameters to include in the forecast
+g = geocoder.ip('me')
+lat = g.latlng[0]
+lng = g.latlng[1]
+g = geocoder.osm([lat, lng], method='reverse')
+region = g.state
+
+
+api_key = "10f2a39e-e464-11ed-a26f-0242ac130002-10f2a42a-e464-11ed-a26f-0242ac130002"
+
 params = "waterTemperature,swellHeight,swellPeriod,swellDirection,windSpeed,windDirection"
 
-# Construct the API request URL
 url = f"https://api.stormglass.io/v2/weather/point?lat={lat}&lng={lng}&params={params}"
 
 # Set the API headers, including the API key
@@ -24,15 +32,35 @@ response = requests.get(url, headers=headers)
 data = response.json()
 
 # Print the surf forecast data
-forecast_data = []
-print('request - ok')
-forecast_data = data
 
 # Save the API response to a JSON file
 with open('forecast.json', 'w') as f:
     json.dump(data, f)
 
-print(data)
+input_file = 'forecast.json'
+output_file = 'refined.json'
+
+max_items = scraping.hour_range
+
+key_name = 'hours'
+
+with open(input_file, 'r') as fin, open(output_file, 'w') as fout:
+    input_data = json.load(fin)
+    
+    if key_name not in input_data or not isinstance(input_data[key_name], list):
+        raise ValueError(f"The JSON file must contain a list of objects under the key '{key_name}'.")
+    
+    limited_data = input_data[key_name][:max_items]
+    
+    # This will create a new JSON file with the same structure but with a limited list of objects
+    output_data = input_data.copy()
+    output_data[key_name] = limited_data
+    
+    json.dump(output_data, fout, indent=2)
+
+
+
+
 
 
 

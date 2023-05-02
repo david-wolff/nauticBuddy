@@ -1,0 +1,87 @@
+{
+  "hours": [
+    {
+      "swellDirection": {
+        "icon": 145.22,
+        "noaa": 160.09,
+        "sg": 145.22
+      },
+      "swellHeight": {
+        "icon": 0.79,
+        "noaa": 0.69,
+        "sg": 0.79
+      },
+      "swellPeriod": {
+        "icon": 7.37,
+        "noaa": 8.27,
+        "sg": 7.37
+      },
+      "time": "2023-05-02T00:00:00+00:00",
+      "waterTemperature": {
+        "meto": 25.46,
+        "noaa": 23.19,
+        "sg": 25.46
+      },
+      "windDirection": {
+        "icon": 74.33,
+        "noaa": 52.53,
+        "sg": 74.33
+      },
+      "windSpeed": {
+        "icon": 1.98,
+        "noaa": 3.62,
+        "sg": 1.98
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 144.91,
+        "noaa": 158.34,
+        "sg": 144.91
+      },
+      "swellHeight": {
+        "icon": 0.79,
+        "noaa": 0.7,
+        "sg": 0.79
+      },
+      "swellPeriod": {
+        "icon": 7.37,
+        "noaa": 8.25,
+        "sg": 7.37
+      },
+      "time": "2023-05-02T01:00:00+00:00",
+      "waterTemperature": {
+        "meto": 25.4,
+        "noaa": 23.17,
+        "sg": 25.4
+      },
+      "windDirection": {
+        "icon": 64.62,
+        "noaa": 36.08,
+        "sg": 64.62
+      },
+      "windSpeed": {
+        "icon": 1.54,
+        "noaa": 3.33,
+        "sg": 1.54
+      }
+    }
+  ],
+  "meta": {
+    "cost": 1,
+    "dailyQuota": 10,
+    "end": "2023-05-12 00:00",
+    "lat": -22.9064,
+    "lng": -43.1822,
+    "params": [
+      "waterTemperature",
+      "swellHeight",
+      "swellPeriod",
+      "swellDirection",
+      "windSpeed",
+      "windDirection"
+    ],
+    "requestCount": 4,
+    "start": "2023-05-02 00:00"
+  }
+}

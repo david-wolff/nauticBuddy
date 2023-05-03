@@ -2,75 +2,339 @@
   "hours": [
     {
       "swellDirection": {
-        "icon": 145.22,
-        "noaa": 160.09,
-        "sg": 145.22
+        "icon": 144.09,
+        "noaa": 154.24,
+        "sg": 144.09
       },
       "swellHeight": {
-        "icon": 0.79,
-        "noaa": 0.69,
-        "sg": 0.79
+        "icon": 0.73,
+        "noaa": 0.59,
+        "sg": 0.73
       },
       "swellPeriod": {
-        "icon": 7.37,
-        "noaa": 8.27,
-        "sg": 7.37
+        "icon": 8.0,
+        "noaa": 8.74,
+        "sg": 8.0
       },
-      "time": "2023-05-02T00:00:00+00:00",
+      "time": "2023-05-03T00:00:00+00:00",
       "waterTemperature": {
-        "meto": 25.46,
-        "noaa": 23.19,
-        "sg": 25.46
-      }, 
+        "meto": 24.6,
+        "noaa": 23.39,
+        "sg": 24.6
+      },
       "windDirection": {
-        "icon": 74.33,
-        "noaa": 52.53,
-        "sg": 74.33
+        "icon": 84.16,
+        "noaa": 87.91,
+        "sg": 84.16
       },
       "windSpeed": {
-        "icon": 1.98,
-        "noaa": 3.62,
-        "sg": 1.98
+        "icon": 1.64,
+        "noaa": 3.89,
+        "sg": 1.64
       }
     },
     {
       "swellDirection": {
-        "icon": 144.91,
-        "noaa": 158.34,
-        "sg": 144.91
+        "icon": 144.15,
+        "noaa": 161.01,
+        "sg": 144.15
       },
       "swellHeight": {
-        "icon": 0.79,
-        "noaa": 0.7,
-        "sg": 0.79
+        "icon": 0.72,
+        "noaa": 0.43,
+        "sg": 0.72
       },
       "swellPeriod": {
-        "icon": 7.37,
-        "noaa": 8.25,
-        "sg": 7.37
+        "icon": 8.0,
+        "noaa": 11.02,
+        "sg": 8.0
       },
-      "time": "2023-05-02T01:00:00+00:00",
+      "time": "2023-05-03T01:00:00+00:00",
       "waterTemperature": {
-        "meto": 25.4,
-        "noaa": 23.17,
-        "sg": 25.4
+        "meto": 24.57,
+        "noaa": 23.33,
+        "sg": 24.57
       },
       "windDirection": {
-        "icon": 64.62,
-        "noaa": 36.08,
-        "sg": 64.62
+        "icon": 79.52,
+        "noaa": 67.44,
+        "sg": 79.52
       },
       "windSpeed": {
-        "icon": 1.54,
-        "noaa": 3.33,
-        "sg": 1.54
+        "icon": 1.55,
+        "noaa": 3.59,
+        "sg": 1.55
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 144.21,
+        "noaa": 167.78,
+        "sg": 144.21
+      },
+      "swellHeight": {
+        "icon": 0.72,
+        "noaa": 0.28,
+        "sg": 0.72
+      },
+      "swellPeriod": {
+        "icon": 8.0,
+        "noaa": 13.31,
+        "sg": 8.0
+      },
+      "time": "2023-05-03T02:00:00+00:00",
+      "waterTemperature": {
+        "meto": 24.53,
+        "noaa": 23.26,
+        "sg": 24.53
+      },
+      "windDirection": {
+        "icon": 74.88,
+        "noaa": 46.96,
+        "sg": 74.88
+      },
+      "windSpeed": {
+        "icon": 1.47,
+        "noaa": 3.29,
+        "sg": 1.47
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 144.27,
+        "noaa": 174.55,
+        "sg": 144.27
+      },
+      "swellHeight": {
+        "icon": 0.71,
+        "noaa": 0.12,
+        "sg": 0.71
+      },
+      "swellPeriod": {
+        "icon": 8.0,
+        "noaa": 15.59,
+        "sg": 8.0
+      },
+      "time": "2023-05-03T03:00:00+00:00",
+      "waterTemperature": {
+        "meto": 24.49,
+        "noaa": 23.2,
+        "sg": 24.49
+      },
+      "windDirection": {
+        "icon": 70.24,
+        "noaa": 26.49,
+        "sg": 70.24
+      },
+      "windSpeed": {
+        "icon": 1.38,
+        "noaa": 2.99,
+        "sg": 1.38
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 144.44,
+        "noaa": 174.63,
+        "sg": 144.44
+      },
+      "swellHeight": {
+        "icon": 0.7,
+        "noaa": 0.13,
+        "sg": 0.7
+      },
+      "swellPeriod": {
+        "icon": 8.04,
+        "noaa": 15.36,
+        "sg": 8.04
+      },
+      "time": "2023-05-03T04:00:00+00:00",
+      "waterTemperature": {
+        "meto": 24.46,
+        "noaa": 23.18,
+        "sg": 24.46
+      },
+      "windDirection": {
+        "icon": 72.64,
+        "noaa": 23.99,
+        "sg": 72.64
+      },
+      "windSpeed": {
+        "icon": 1.23,
+        "noaa": 2.71,
+        "sg": 1.23
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 144.6,
+        "noaa": 174.72,
+        "sg": 144.6
+      },
+      "swellHeight": {
+        "icon": 0.7,
+        "noaa": 0.13,
+        "sg": 0.7
+      },
+      "swellPeriod": {
+        "icon": 8.07,
+        "noaa": 15.14,
+        "sg": 8.07
+      },
+      "time": "2023-05-03T05:00:00+00:00",
+      "waterTemperature": {
+        "meto": 24.44,
+        "noaa": 23.15,
+        "sg": 24.44
+      },
+      "windDirection": {
+        "icon": 75.04,
+        "noaa": 21.49,
+        "sg": 75.04
+      },
+      "windSpeed": {
+        "icon": 1.07,
+        "noaa": 2.42,
+        "sg": 1.07
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 144.77,
+        "noaa": 174.8,
+        "sg": 144.77
+      },
+      "swellHeight": {
+        "icon": 0.69,
+        "noaa": 0.14,
+        "sg": 0.69
+      },
+      "swellPeriod": {
+        "icon": 8.11,
+        "noaa": 14.91,
+        "sg": 8.11
+      },
+      "time": "2023-05-03T06:00:00+00:00",
+      "waterTemperature": {
+        "meto": 24.42,
+        "noaa": 23.13,
+        "sg": 24.42
+      },
+      "windDirection": {
+        "icon": 77.44,
+        "noaa": 18.99,
+        "sg": 77.44
+      },
+      "windSpeed": {
+        "icon": 0.92,
+        "noaa": 2.14,
+        "sg": 0.92
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 145.05,
+        "noaa": 166.64,
+        "sg": 145.05
+      },
+      "swellHeight": {
+        "icon": 0.68,
+        "noaa": 0.28,
+        "sg": 0.68
+      },
+      "swellPeriod": {
+        "icon": 8.17,
+        "noaa": 12.91,
+        "sg": 8.17
+      },
+      "time": "2023-05-03T07:00:00+00:00",
+      "waterTemperature": {
+        "meto": 24.39,
+        "noaa": 23.04,
+        "sg": 24.39
+      },
+      "windDirection": {
+        "icon": 60.52,
+        "noaa": 11.17,
+        "sg": 60.52
+      },
+      "windSpeed": {
+        "icon": 0.89,
+        "noaa": 2.11,
+        "sg": 0.89
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 145.34,
+        "noaa": 158.48,
+        "sg": 145.34
+      },
+      "swellHeight": {
+        "icon": 0.68,
+        "noaa": 0.41,
+        "sg": 0.68
+      },
+      "swellPeriod": {
+        "icon": 8.24,
+        "noaa": 10.91,
+        "sg": 8.24
+      },
+      "time": "2023-05-03T08:00:00+00:00",
+      "waterTemperature": {
+        "meto": 24.37,
+        "noaa": 22.96,
+        "sg": 24.37
+      },
+      "windDirection": {
+        "icon": 43.59,
+        "noaa": 3.34,
+        "sg": 43.59
+      },
+      "windSpeed": {
+        "icon": 0.85,
+        "noaa": 2.07,
+        "sg": 0.85
+      }
+    },
+    {
+      "swellDirection": {
+        "icon": 145.62,
+        "noaa": 150.32,
+        "sg": 145.62
+      },
+      "swellHeight": {
+        "icon": 0.67,
+        "noaa": 0.55,
+        "sg": 0.67
+      },
+      "swellPeriod": {
+        "icon": 8.3,
+        "noaa": 8.91,
+        "sg": 8.3
+      },
+      "time": "2023-05-03T09:00:00+00:00",
+      "waterTemperature": {
+        "meto": 24.35,
+        "noaa": 22.88,
+        "sg": 24.35
+      },
+      "windDirection": {
+        "icon": 26.67,
+        "noaa": 355.52,
+        "sg": 26.67
+      },
+      "windSpeed": {
+        "icon": 0.82,
+        "noaa": 2.04,
+        "sg": 0.82
       }
     }
   ],
   "meta": {
     "cost": 1,
     "dailyQuota": 10,
-    "end": "2023-05-12 00:00",
+    "end": "2023-05-13 00:00",
     "lat": -22.9064,
     "lng": -43.1822,
     "params": [
@@ -81,7 +345,7 @@
       "windSpeed",
       "windDirection"
     ],
-    "requestCount": 4,
-    "start": "2023-05-02 00:00"
+    "requestCount": 3,
+    "start": "2023-05-03 00:00"
   }
 }

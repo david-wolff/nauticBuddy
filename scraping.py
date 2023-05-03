@@ -20,8 +20,9 @@ forecast_data = []
 c = 0
 target_timestamp = "2023-04-T06:00:00+00:00"
 limit_timestamp = "2023-05-02T06:00:00+00:00"
-hour_range = 2
+hour_range = 10
 
+message_data = ['Mahalo !!!']
 
 c = 0
 for hour in data['hours']:
@@ -36,6 +37,15 @@ for hour in data['hours']:
     swell_direction = hour['swellDirection']['sg']
     wind_speed = hour['windSpeed']['sg']
     wind_direction = hour['windDirection']['sg']
+    message_data.append(f"Nautic Forecast for {region}:")
+    message_data.append(f"Time: {output_date_string}")
+    message_data.append(f"Water Temperature: {water_temp}")
+    message_data.append(f"Swell Height: {swell_height}")
+    message_data.append(f"Swell Period: {swell_period}")
+    message_data.append(f"Swell Direction: {swell_direction}")
+    message_data.append(f"Wind Direction: {wind_speed}")
+    message_data.append(f"Wind Direction: {wind_direction}")
+    message_data.append("||||||||||||||||||||||||||||||")
     print(f"Nautic Forecast for {region}:")
     print(f"Time: {output_date_string}")
     print(f"Water Temperature: {water_temp}")
